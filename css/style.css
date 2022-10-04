@@ -1,0 +1,135 @@
+
+*,body ,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffff88+0,ffff88+100;Yellow+Flat+%231 */
+background: rgb(255,255,136); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,136,1) 0%, rgba(255,255,136,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(255,255,136,1) 0%,rgba(255,255,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    box-shadow: -1px 5px 1px rgb(234, 198, 15) ;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+background: rgb(243,226,199); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+    color: #fff;
+    height: 60px;
+}
+.menu .logo{
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 25px;
+    line-height: 1;
+    /* color: aqua; */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1e767+0,3cd841+44,feb645+96 */
+background: rgb(241,231,103); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(241,231,103,1) 0%, rgba(60,216,65,1) 44%, rgba(254,182,69,1) 96%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(241,231,103,1) 0%,rgba(60,216,65,1) 44%,rgba(254,182,69,1) 96%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(241,231,103,1) 0%,rgba(60,216,65,1) 44%,rgba(254,182,69,1) 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+.menu > ul{
+margin: 0;
+padding: 0;
+float: left;
+}
+ .menu > ul > li{
+    float: left;
+    
+} 
+.menu-itm{
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    height: 30px;
+    /* line-height: 30px; */
+}
+.menu-itm:hover{
+    background-color: #d5c7c7;
+    color: black;
+}
+.sub-content{
+    position: absolute;
+    overflow: hidden;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8fc800+0,8fc800+100;Green+Flat+%232 */
+background: rgb(143,200,0); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(143,200,0,1) 0%, rgba(143,200,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(143,200,0,1) 0%,rgba(143,200,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(143,200,0,1) 0%,rgba(143,200,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc800', endColorstr='#8fc800',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    top: 60px;
+    /* max-height: 0; */
+    display: none;
+}
+.sub-content a{
+    padding: 30px 20px;
+    color: #fff;
+}
+.sub-m ul li a{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.sub-m ul li a:hover{
+    background-color: #d5c7c7;
+  color: black;
+}
+/* .menu-itm:focus{
+background-color: #ad8585;
+color: black;
+} */
+.menu ul li:hover .sub-content{
+    /* max-height: 400px; */ /*  نستخدم هذه الطريف  او طريقه الdsply */
+    display: block;
+    transition: 1s;
+}
+i{
+    position: absolute;
+    left: 5px;
+    z-index: 1;
+    color: white;
+   font-size: 25px;
+    top: 17px;
+}
+img{
+    width: 700px;
+    height: 350px;
+  border: 1px solid rgb(182, 46, 46);
+  -webkit-filter: grayscale(10);
+  
+   
+}
+.myimg{
+    padding-left: 10px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
